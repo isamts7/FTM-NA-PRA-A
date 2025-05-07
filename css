@@ -27,7 +27,7 @@ function atualizarTexto() {
   document.getElementById('textoSimulado').innerText = simularDislexia(textoOriginal);
 }
 
-setInterval(atualizarTexto, 1500); 
+setInterval(atualizarTexto, 1200); 
 
 // Perguntas para o desafio
 const perguntas = [
